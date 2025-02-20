@@ -1,0 +1,29 @@
+.flex_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.icon{
+    color: #1370dd;
+    margin-right: 10px;
+}
+.link_div{
+    color: var(--color3) !important;
+    border: 2px transparent solid;
+    padding: 5px;
+    font-size: 17px;
+}
+.link_div>a{
+    color: #1370dd;
+}
+
+.link_div:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #e3dede;
+    border-radius: 9999px;
+}

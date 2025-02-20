@@ -1,0 +1,7 @@
+.add_record{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: all 0.2s;
+}

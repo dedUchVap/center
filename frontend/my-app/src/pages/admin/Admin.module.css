@@ -1,0 +1,16 @@
+.container_hello_admin {
+    background-color: white;
+    -webkit-box-shadow: 4px 0px 13px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 0px 13px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 0px 13px 4px rgba(34, 60, 80, 0.2);
+    border-radius: 0.25rem;
+    width: 50%;
+
+}
+.admin_main{
+    display: flex;
+    flex-direction: row;
+}
+.tables{
+    flex: 90%
+}

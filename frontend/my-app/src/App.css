@@ -1,0 +1,169 @@
+:root {
+    --color1: #02315E;
+    --color2: #00457E;
+    --color3: #2F70AF;
+    --color4: #B9848C;
+    --color5: #806491;
+    --color-white: white
+}
+
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.color3 {
+    color: var(--color3);
+}
+
+.color4 {
+    color: var(--color4);
+}
+
+.color5 {
+    color: var(--color5);
+}
+
+
+.div_advantages {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 0.25rem;
+    height: 100%;
+    max-height: 500px;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.section_advantages {
+    padding: 30px;
+    background-color: #f8f6f6;
+}
+
+.box_shadow_1 {
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+}
+
+.w_300 {
+    max-width: 300px;
+    width: 100%;
+}
+
+.img {
+    filter: brightness(60%);
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.container_advantages {
+    position: relative;
+    bottom: 75px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+
+.icon_24 {
+    font-size: 24px;
+}
+
+.w-100-mobile {
+    width: 75% !important;
+}
+
+.w100-max {
+    max-width: 100% !important;
+}
+
+@media (max-width: 414px) {
+    .w-100-mobile {
+        width: 100% !important;
+    }
+
+}
+
+body, html {
+    font-family: "Inter", sans-serif;
+    background-color: #f5f7fa !important;
+}
+
+.loading {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: var(--color5) solid 3px;
+    border-radius: 50%;
+    border-top: var(--color1) solid 3px;
+    animation: load 1.5s infinite ease-in-out;
+}
+
+@keyframes load {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+
+.color_orange {
+    color: orange;
+}
+
+.star_default {
+    opacity: 0.8;
+    color: rgba(223, 214, 214, 0.8);
+}
+
+.star_default_hover {
+    color: rgba(255, 165, 0, 0.75)
+}
+
+.star_select {
+    color: orange;
+}
+
+.star {
+    transition: all 0.2s;
+}
+
+.App {
+    height: 100%;
+}
+
+.btn_menu {
+
+}
+
+.form_add {
+    max-width: 1200px;
+    width: 95%;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: white;
+    padding: 30px;
+    border-radius: 0.25rem;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.label_container {
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+}
